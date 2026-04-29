@@ -1,0 +1,12 @@
+Fraud Operations Case Review
+===================================
+
+Case ID: 1004
+Customer ID: CUST004
+Total Transactions: 15
+Total Returns: 1
+Total Disputes: 0
+Risk Level: MEDIUM
+
+Review Notes:
+Limited return activity observed

@@ -1,0 +1,12 @@
+Fraud Operations Case Review
+===================================
+
+Case ID: 1001
+Customer ID: CUST001
+Total Transactions: 45
+Total Returns: 3
+Total Disputes: 1
+Risk Level: HIGH
+
+Review Notes:
+Multiple returned payments and dispute activity observed

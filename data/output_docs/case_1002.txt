@@ -1,0 +1,12 @@
+Fraud Operations Case Review
+===================================
+
+Case ID: 1002
+Customer ID: CUST002
+Total Transactions: 20
+Total Returns: 0
+Total Disputes: 0
+Risk Level: LOW
+
+Review Notes:
+Normal account behavior with no major risk indicators

@@ -1,0 +1,12 @@
+Fraud Operations Case Review
+===================================
+
+Case ID: 1005
+Customer ID: CUST005
+Total Transactions: 50
+Total Returns: 0
+Total Disputes: 3
+Risk Level: MEDIUM
+
+Review Notes:
+Dispute activity present despite no returned payments

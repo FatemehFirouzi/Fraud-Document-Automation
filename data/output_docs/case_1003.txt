@@ -1,0 +1,12 @@
+Fraud Operations Case Review
+===================================
+
+Case ID: 1003
+Customer ID: CUST003
+Total Transactions: 38
+Total Returns: 5
+Total Disputes: 2
+Risk Level: HIGH
+
+Review Notes:
+High return rate and multiple disputes requiring review

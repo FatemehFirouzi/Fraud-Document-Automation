@@ -1,0 +1,6 @@
+case_id,customer_id,total_transactions,total_returns,total_disputes,risk_flag,review_note
+1001,CUST001,45,3,1,HIGH,Multiple returned payments and dispute activity observed
+1002,CUST002,20,0,0,LOW,Normal account behavior with no major risk indicators
+1003,CUST003,38,5,2,HIGH,High return rate and multiple disputes requiring review
+1004,CUST004,15,1,0,MEDIUM,Limited return activity observed
+1005,CUST005,50,0,3,MEDIUM,Dispute activity present despite no returned payments
