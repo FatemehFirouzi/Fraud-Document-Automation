@@ -18,23 +18,25 @@ In many fraud and risk operations teams, analysts manually prepare case review d
 
 
 
-\- account investigations
+\* account investigations
 
-\- payment return reviews
+\* payment return reviews
 
-\- dispute analysis
+\* dispute analysis
 
-\- audit or compliance reporting
+\* audit or compliance reporting
 
 
 
 This process is often:
 
-\- repetitive
 
-\- time-consuming
 
-\- inconsistent across analysts
+\* repetitive
+
+\* time-consuming
+
+\* inconsistent across analysts
 
 
 
@@ -50,13 +52,13 @@ This pipeline takes structured case-level data and:
 
 
 
-\- transforms it into review-ready format
+\* transforms it into review-ready format
 
-\- applies simple rule-based risk indicators
+\* applies simple rule-based risk indicators
 
-\- generates standardized case summaries
+\* generates standardized case summaries
 
-\- produces one document per case
+\* produces one document per case
 
 
 
@@ -64,11 +66,23 @@ This pipeline takes structured case-level data and:
 
 
 
-fraud signals → case creation → analyst review → document generation
+```text
 
-&#x20;                                             ↑
+Fraud signals / rules
 
-&#x20;                                      (this project)
+&#x20;       ↓
+
+Case creation
+
+&#x20;       ↓
+
+Analyst review
+
+&#x20;       ↓
+
+Document generation  ← this project
+
+```
 
 
 
@@ -80,13 +94,13 @@ Fraud-Document-Automation/
 
 
 
-\- data/
+\* data/
 
-\- sql/
+\* sql/
 
-\- src/
+\* src/
 
-\- docs/
+\* docs/
 
 
 
@@ -94,11 +108,11 @@ Fraud-Document-Automation/
 
 
 
-\- Python
+\* Python
 
-\- SQL
+\* SQL
 
-\- Pandas
+\* Pandas
 
 
 
@@ -106,13 +120,13 @@ Fraud-Document-Automation/
 
 
 
-\- reduces manual effort
+\* reduces manual effort
 
-\- improves consistency
+\* improves consistency
 
-\- speeds up workflows
+\* speeds up workflows
 
-\- supports audit readiness
+\* supports audit readiness
 
 
 
@@ -123,6 +137,8 @@ Fraud-Document-Automation/
 Example generated case document:
 
 
+
+```text
 
 Fraud Operations Case Review
 
@@ -147,4 +163,48 @@ Risk Level: HIGH
 Review Notes:
 
 Multiple returned payments and dispute activity observed
+
+```
+
+
+
+\## How to Run
+
+
+
+Install dependencies:
+
+
+
+```bash
+
+py -m pip install pandas
+
+```
+
+
+
+Run the automation:
+
+
+
+```bash
+
+py src/generate\_docs.py
+
+```
+
+
+
+Generated files will be saved in:
+
+
+
+```text
+
+data/output\_docs/
+
+```
+
+
 
