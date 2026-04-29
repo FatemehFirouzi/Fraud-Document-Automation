@@ -64,9 +64,9 @@ This pipeline takes structured case-level data and:
 
 
 
-fraud signals → case creation → analyst review → document generation  
+fraud signals → case creation → analyst review → document generation
 
-&#x20;                                             ↑  
+&#x20;                                             ↑
 
 &#x20;                                      (this project)
 
@@ -115,4 +115,36 @@ Fraud-Document-Automation/
 \- supports audit readiness
 
 
+
+\## Sample Output
+
+
+
+Example generated case document:
+
+
+
+Fraud Operations Case Review
+
+===================================
+
+
+
+Case ID: 1001
+
+Customer ID: CUST001
+
+Total Transactions: 45
+
+Total Returns: 3
+
+Total Disputes: 1
+
+Risk Level: HIGH
+
+
+
+Review Notes:
+
+Multiple returned payments and dispute activity observed
 
